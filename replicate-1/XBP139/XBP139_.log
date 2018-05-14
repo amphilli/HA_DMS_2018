@@ -1,0 +1,191 @@
+2017-07-12 09:34:12,458 - INFO - Beginning execution of dms_barcodedsubamplicons in directory /Users/angelaphillips/Desktop/HA_GIT/Hemagglutinin_3/replicate-1/XBP139
+
+2017-07-12 09:34:12,458 - INFO - Progress will be logged to XBP139_.log
+2017-07-12 09:34:13,042 - INFO - Version information for dms_tools and associated packages.
+	Time and date: Wed Jul 12 09:34:12 2017
+	Platform: Darwin-15.5.0-x86_64-i386-64bit
+	Python version: 2.7.11 |Anaconda 2.3.0 (x86_64)| (default, Dec  6 2015, 18:57:58)  [GCC 4.2.1 (Apple Inc. build 5577)]
+	dms_tools version: 1.1.14
+	Bio version: 1.66
+	numpy version: 1.9.2
+	scipy version: 0.15.1
+	matplotlib version: 1.4.3
+	cython version: 0.22.1
+	pystan version: 2.9.0.0
+	weblogolib version: 3.4
+	PyPDF2 version: 1.26.0
+
+2017-07-12 09:34:13,043 - INFO - Parsed the following arguments:
+	minreadconcurrence = 0.75
+	maxmuts = 4
+	maxlowqfrac = 0.075
+	r1files = ['/Users/angelaphillips/Desktop/HA_GIT/Hemagglutinin_3/FASTQ_files//replicate-1/XBP139/XBP139_1.fastq']
+	minreadidentity = 0.9
+	purgefrac = 0
+	R1trimlength = 200
+	R1_is_antisense = False
+	r2files = ['/Users/angelaphillips/Desktop/HA_GIT/Hemagglutinin_3/FASTQ_files//replicate-1/XBP139/XBP139_2.fastq']
+	alignspecs = [(1, 285, 36, 37), (286, 570, 31, 32), (571, 855, 37, 32), (856, 1140, 31, 36), (1141, 1425, 29, 33), (1426, 1698, 40, 43)]
+	R2trimlength = 170
+	maxreadtrim = 3
+	barcodeinfo = False
+	chartype = codon
+	barcodelength = 8
+	minreadsperbarcode = 2
+	minq = 15
+	outprefix = XBP139_
+	refseq = /Users/angelaphillips/Desktop/HA_GIT/Hemagglutinin_3/WSN_HA_reference.fasta
+	purgereadfrac = 0
+	seed = 1
+
+2017-07-12 09:34:13,046 - INFO - Read a reference sequence of 566 codons from /Users/angelaphillips/Desktop/HA_GIT/Hemagglutinin_3/WSN_HA_reference.fasta
+
+2017-07-12 09:34:13,046 - INFO - Now parsing reads from the following:
+	r1files: /Users/angelaphillips/Desktop/HA_GIT/Hemagglutinin_3/FASTQ_files//replicate-1/XBP139/XBP139_1.fastq
+	r2files: /Users/angelaphillips/Desktop/HA_GIT/Hemagglutinin_3/FASTQ_files//replicate-1/XBP139/XBP139_2.fastq
+2017-07-12 09:34:14,742 - INFO - Reads parsed so far: 100000
+2017-07-12 09:34:16,476 - INFO - Reads parsed so far: 200000
+2017-07-12 09:34:18,182 - INFO - Reads parsed so far: 300000
+2017-07-12 09:34:19,916 - INFO - Reads parsed so far: 400000
+2017-07-12 09:34:21,701 - INFO - Reads parsed so far: 500000
+2017-07-12 09:34:23,387 - INFO - Reads parsed so far: 600000
+2017-07-12 09:34:25,178 - INFO - Reads parsed so far: 700000
+2017-07-12 09:34:26,820 - INFO - Reads parsed so far: 800000
+2017-07-12 09:34:28,657 - INFO - Reads parsed so far: 900000
+2017-07-12 09:34:30,344 - INFO - Reads parsed so far: 1000000
+2017-07-12 09:34:32,002 - INFO - Reads parsed so far: 1100000
+2017-07-12 09:34:33,920 - INFO - Reads parsed so far: 1200000
+2017-07-12 09:34:35,589 - INFO - Reads parsed so far: 1300000
+2017-07-12 09:34:37,272 - INFO - Reads parsed so far: 1400000
+2017-07-12 09:34:38,933 - INFO - Reads parsed so far: 1500000
+2017-07-12 09:34:40,578 - INFO - Reads parsed so far: 1600000
+2017-07-12 09:34:42,583 - INFO - Reads parsed so far: 1700000
+2017-07-12 09:34:44,230 - INFO - Reads parsed so far: 1800000
+2017-07-12 09:34:45,898 - INFO - Reads parsed so far: 1900000
+2017-07-12 09:34:47,561 - INFO - Reads parsed so far: 2000000
+2017-07-12 09:34:49,234 - INFO - Reads parsed so far: 2100000
+2017-07-12 09:34:50,923 - INFO - Reads parsed so far: 2200000
+2017-07-12 09:34:52,588 - INFO - Reads parsed so far: 2300000
+2017-07-12 09:34:54,247 - INFO - Reads parsed so far: 2400000
+2017-07-12 09:34:56,416 - INFO - Reads parsed so far: 2500000
+2017-07-12 09:34:58,072 - INFO - Reads parsed so far: 2600000
+2017-07-12 09:34:59,734 - INFO - Reads parsed so far: 2700000
+2017-07-12 09:35:01,495 - INFO - Reads parsed so far: 2800000
+2017-07-12 09:35:03,151 - INFO - Reads parsed so far: 2900000
+2017-07-12 09:35:04,841 - INFO - Reads parsed so far: 3000000
+2017-07-12 09:35:06,512 - INFO - Reads parsed so far: 3100000
+2017-07-12 09:35:08,173 - INFO - Reads parsed so far: 3200000
+2017-07-12 09:35:09,840 - INFO - Reads parsed so far: 3300000
+2017-07-12 09:35:11,502 - INFO - Reads parsed so far: 3400000
+2017-07-12 09:35:13,161 - INFO - Reads parsed so far: 3500000
+2017-07-12 09:35:14,817 - INFO - Reads parsed so far: 3600000
+2017-07-12 09:35:16,495 - INFO - Reads parsed so far: 3700000
+2017-07-12 09:35:18,156 - INFO - Reads parsed so far: 3800000
+2017-07-12 09:35:19,849 - INFO - Reads parsed so far: 3900000
+2017-07-12 09:35:22,309 - INFO - Reads parsed so far: 4000000
+2017-07-12 09:35:23,974 - INFO - Reads parsed so far: 4100000
+2017-07-12 09:35:25,643 - INFO - Reads parsed so far: 4200000
+2017-07-12 09:35:27,301 - INFO - Reads parsed so far: 4300000
+2017-07-12 09:35:28,968 - INFO - Reads parsed so far: 4400000
+2017-07-12 09:35:30,646 - INFO - Reads parsed so far: 4500000
+2017-07-12 09:35:32,294 - INFO - Reads parsed so far: 4600000
+2017-07-12 09:35:33,996 - INFO - Reads parsed so far: 4700000
+2017-07-12 09:35:35,651 - INFO - Reads parsed so far: 4800000
+2017-07-12 09:35:37,318 - INFO - Reads parsed so far: 4900000
+2017-07-12 09:35:38,966 - INFO - Reads parsed so far: 5000000
+2017-07-12 09:35:40,625 - INFO - Reads parsed so far: 5100000
+2017-07-12 09:35:42,277 - INFO - Reads parsed so far: 5200000
+2017-07-12 09:35:43,956 - INFO - Reads parsed so far: 5300000
+2017-07-12 09:35:45,618 - INFO - Reads parsed so far: 5400000
+2017-07-12 09:35:47,319 - INFO - Reads parsed so far: 5500000
+2017-07-12 09:35:48,959 - INFO - Reads parsed so far: 5600000
+2017-07-12 09:35:50,629 - INFO - Reads parsed so far: 5700000
+2017-07-12 09:35:52,286 - INFO - Reads parsed so far: 5800000
+2017-07-12 09:35:53,951 - INFO - Reads parsed so far: 5900000
+2017-07-12 09:35:55,609 - INFO - Reads parsed so far: 6000000
+2017-07-12 09:35:57,262 - INFO - Reads parsed so far: 6100000
+2017-07-12 09:35:58,902 - INFO - Reads parsed so far: 6200000
+2017-07-12 09:36:00,572 - INFO - Reads parsed so far: 6300000
+2017-07-12 09:36:02,241 - INFO - Reads parsed so far: 6400000
+2017-07-12 09:36:02,484 - INFO - Finished parsing all 6414943 reads; ended up with 1950896 unique barcodes.
+
+2017-07-12 09:36:02,490 - INFO - Now examining the 1950896 barcodes to see if reads meet criteria for retention
+2017-07-12 09:36:06,766 - INFO - Barcodes examined so far: 100000
+2017-07-12 09:36:10,927 - INFO - Barcodes examined so far: 200000
+2017-07-12 09:36:15,133 - INFO - Barcodes examined so far: 300000
+2017-07-12 09:36:19,299 - INFO - Barcodes examined so far: 400000
+2017-07-12 09:36:23,481 - INFO - Barcodes examined so far: 500000
+2017-07-12 09:36:27,795 - INFO - Barcodes examined so far: 600000
+2017-07-12 09:36:32,036 - INFO - Barcodes examined so far: 700000
+2017-07-12 09:36:36,193 - INFO - Barcodes examined so far: 800000
+2017-07-12 09:36:40,374 - INFO - Barcodes examined so far: 900000
+2017-07-12 09:36:44,599 - INFO - Barcodes examined so far: 1000000
+2017-07-12 09:36:48,812 - INFO - Barcodes examined so far: 1100000
+2017-07-12 09:36:52,994 - INFO - Barcodes examined so far: 1200000
+2017-07-12 09:36:57,235 - INFO - Barcodes examined so far: 1300000
+2017-07-12 09:37:01,418 - INFO - Barcodes examined so far: 1400000
+2017-07-12 09:37:05,651 - INFO - Barcodes examined so far: 1500000
+2017-07-12 09:37:10,069 - INFO - Barcodes examined so far: 1600000
+2017-07-12 09:37:14,837 - INFO - Barcodes examined so far: 1700000
+2017-07-12 09:37:19,997 - INFO - Barcodes examined so far: 1800000
+2017-07-12 09:37:26,102 - INFO - Barcodes examined so far: 1900000
+2017-07-12 09:37:31,348 - INFO - Finished examining all 1950896 barcodes
+
+2017-07-12 09:37:31,348 - INFO - Writing the codon counts to XBP139_counts.txt
+2017-07-12 09:37:31,377 - INFO - Here are the summary statistics (these are also being written to XBP139_summarystats.txt):
+	total read pairs = 6414943
+	read pairs that fail Illumina filter = 0
+	low quality read pairs = 563042
+	barcodes randomly purged = 0
+	discarded barcodes with 1 reads = 602439
+	aligned barcodes with 2 reads = 293380
+	discarded barcodes with 2 reads = 4893
+	un-alignable barcodes with 2 reads = 26349
+	aligned barcodes with 3 reads = 287982
+	discarded barcodes with 3 reads = 7329
+	un-alignable barcodes with 3 reads = 37710
+	aligned barcodes with 4 reads = 253815
+	discarded barcodes with 4 reads = 7737
+	un-alignable barcodes with 4 reads = 13098
+	aligned barcodes with 5 reads = 174973
+	discarded barcodes with 5 reads = 6940
+	un-alignable barcodes with 5 reads = 8904
+	aligned barcodes with 6 reads = 104006
+	discarded barcodes with 6 reads = 4936
+	un-alignable barcodes with 6 reads = 5075
+	aligned barcodes with 7 reads = 55158
+	discarded barcodes with 7 reads = 3033
+	un-alignable barcodes with 7 reads = 2805
+	aligned barcodes with 8 reads = 26297
+	discarded barcodes with 8 reads = 1655
+	un-alignable barcodes with 8 reads = 1295
+	aligned barcodes with 9 reads = 11250
+	discarded barcodes with 9 reads = 803
+	un-alignable barcodes with 9 reads = 525
+	aligned barcodes with 10 reads = 4599
+	discarded barcodes with 10 reads = 429
+	un-alignable barcodes with 10 reads = 237
+	aligned barcodes with 11 reads = 1811
+	discarded barcodes with 11 reads = 145
+	un-alignable barcodes with 11 reads = 85
+	aligned barcodes with 12 reads = 655
+	discarded barcodes with 12 reads = 79
+	un-alignable barcodes with 12 reads = 49
+	aligned barcodes with 13 reads = 219
+	discarded barcodes with 13 reads = 33
+	un-alignable barcodes with 13 reads = 8
+	aligned barcodes with 14 reads = 84
+	discarded barcodes with 14 reads = 14
+	un-alignable barcodes with 14 reads = 5
+	aligned barcodes with 15 reads = 24
+	discarded barcodes with 15 reads = 2
+	un-alignable barcodes with 15 reads = 4
+	aligned barcodes with 16 reads = 11
+	discarded barcodes with 16 reads = 2
+	un-alignable barcodes with 16 reads = 2
+	aligned barcodes with 17 reads = 7
+	un-alignable barcodes with 17 reads = 1
+	aligned barcodes with 18 reads = 2
+	discarded barcodes with 18 reads = 1
+	discarded barcodes with 19 reads = 1
+2017-07-12 09:37:31,378 - INFO - Successful completion of dms_barcodedsubamplicons at Wed Jul 12 09:37:31 2017

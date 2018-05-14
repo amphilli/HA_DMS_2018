@@ -1,0 +1,162 @@
+2017-07-12 10:17:12,646 - INFO - Beginning execution of dms_barcodedsubamplicons in directory /Users/angelaphillips/Desktop/HA_GIT/Hemagglutinin_3/replicate-3/Lib3
+
+2017-07-12 10:17:12,646 - INFO - Progress will be logged to Lib3_.log
+2017-07-12 10:17:13,375 - INFO - Version information for dms_tools and associated packages.
+	Time and date: Wed Jul 12 10:17:12 2017
+	Platform: Darwin-15.5.0-x86_64-i386-64bit
+	Python version: 2.7.11 |Anaconda 2.3.0 (x86_64)| (default, Dec  6 2015, 18:57:58)  [GCC 4.2.1 (Apple Inc. build 5577)]
+	dms_tools version: 1.1.14
+	Bio version: 1.66
+	numpy version: 1.9.2
+	scipy version: 0.15.1
+	matplotlib version: 1.4.3
+	cython version: 0.22.1
+	pystan version: 2.9.0.0
+	weblogolib version: 3.4
+	PyPDF2 version: 1.26.0
+
+2017-07-12 10:17:13,375 - INFO - Parsed the following arguments:
+	minreadconcurrence = 0.75
+	maxmuts = 4
+	maxlowqfrac = 0.075
+	r1files = ['/Users/angelaphillips/Desktop/HA_GIT/Hemagglutinin_3/FASTQ_files//replicate-3/Lib3/Lib3_1.fastq']
+	minreadidentity = 0.9
+	purgefrac = 0
+	R1trimlength = 200
+	R1_is_antisense = False
+	r2files = ['/Users/angelaphillips/Desktop/HA_GIT/Hemagglutinin_3/FASTQ_files//replicate-3/Lib3/Lib3_2.fastq']
+	alignspecs = [(1, 285, 36, 37), (286, 570, 31, 32), (571, 855, 37, 32), (856, 1140, 31, 36), (1141, 1425, 29, 33), (1426, 1698, 40, 43)]
+	R2trimlength = 170
+	maxreadtrim = 3
+	barcodeinfo = False
+	chartype = codon
+	barcodelength = 8
+	minreadsperbarcode = 2
+	minq = 15
+	outprefix = Lib3_
+	refseq = /Users/angelaphillips/Desktop/HA_GIT/Hemagglutinin_3/WSN_HA_reference.fasta
+	purgereadfrac = 0
+	seed = 1
+
+2017-07-12 10:17:13,382 - INFO - Read a reference sequence of 566 codons from /Users/angelaphillips/Desktop/HA_GIT/Hemagglutinin_3/WSN_HA_reference.fasta
+
+2017-07-12 10:17:13,383 - INFO - Now parsing reads from the following:
+	r1files: /Users/angelaphillips/Desktop/HA_GIT/Hemagglutinin_3/FASTQ_files//replicate-3/Lib3/Lib3_1.fastq
+	r2files: /Users/angelaphillips/Desktop/HA_GIT/Hemagglutinin_3/FASTQ_files//replicate-3/Lib3/Lib3_2.fastq
+2017-07-12 10:17:15,058 - INFO - Reads parsed so far: 100000
+2017-07-12 10:17:16,770 - INFO - Reads parsed so far: 200000
+2017-07-12 10:17:18,449 - INFO - Reads parsed so far: 300000
+2017-07-12 10:17:20,149 - INFO - Reads parsed so far: 400000
+2017-07-12 10:17:21,889 - INFO - Reads parsed so far: 500000
+2017-07-12 10:17:23,508 - INFO - Reads parsed so far: 600000
+2017-07-12 10:17:25,279 - INFO - Reads parsed so far: 700000
+2017-07-12 10:17:26,947 - INFO - Reads parsed so far: 800000
+2017-07-12 10:17:28,785 - INFO - Reads parsed so far: 900000
+2017-07-12 10:17:30,420 - INFO - Reads parsed so far: 1000000
+2017-07-12 10:17:32,267 - INFO - Reads parsed so far: 1100000
+2017-07-12 10:17:33,970 - INFO - Reads parsed so far: 1200000
+2017-07-12 10:17:35,675 - INFO - Reads parsed so far: 1300000
+2017-07-12 10:17:37,379 - INFO - Reads parsed so far: 1400000
+2017-07-12 10:17:39,334 - INFO - Reads parsed so far: 1500000
+2017-07-12 10:17:41,010 - INFO - Reads parsed so far: 1600000
+2017-07-12 10:17:42,642 - INFO - Reads parsed so far: 1700000
+2017-07-12 10:17:44,272 - INFO - Reads parsed so far: 1800000
+2017-07-12 10:17:45,910 - INFO - Reads parsed so far: 1900000
+2017-07-12 10:17:47,542 - INFO - Reads parsed so far: 2000000
+2017-07-12 10:17:49,598 - INFO - Reads parsed so far: 2100000
+2017-07-12 10:17:51,336 - INFO - Reads parsed so far: 2200000
+2017-07-12 10:17:52,973 - INFO - Reads parsed so far: 2300000
+2017-07-12 10:17:54,629 - INFO - Reads parsed so far: 2400000
+2017-07-12 10:17:56,284 - INFO - Reads parsed so far: 2500000
+2017-07-12 10:17:57,921 - INFO - Reads parsed so far: 2600000
+2017-07-12 10:17:59,559 - INFO - Reads parsed so far: 2700000
+2017-07-12 10:18:01,200 - INFO - Reads parsed so far: 2800000
+2017-07-12 10:18:03,450 - INFO - Reads parsed so far: 2900000
+2017-07-12 10:18:05,088 - INFO - Reads parsed so far: 3000000
+2017-07-12 10:18:06,729 - INFO - Reads parsed so far: 3100000
+2017-07-12 10:18:08,378 - INFO - Reads parsed so far: 3200000
+2017-07-12 10:18:10,070 - INFO - Reads parsed so far: 3300000
+2017-07-12 10:18:11,711 - INFO - Reads parsed so far: 3400000
+2017-07-12 10:18:13,342 - INFO - Reads parsed so far: 3500000
+2017-07-12 10:18:14,976 - INFO - Reads parsed so far: 3600000
+2017-07-12 10:18:16,613 - INFO - Reads parsed so far: 3700000
+2017-07-12 10:18:18,255 - INFO - Reads parsed so far: 3800000
+2017-07-12 10:18:19,894 - INFO - Reads parsed so far: 3900000
+2017-07-12 10:18:21,542 - INFO - Reads parsed so far: 4000000
+2017-07-12 10:18:23,224 - INFO - Reads parsed so far: 4100000
+2017-07-12 10:18:25,768 - INFO - Reads parsed so far: 4200000
+2017-07-12 10:18:27,397 - INFO - Reads parsed so far: 4300000
+2017-07-12 10:18:29,032 - INFO - Reads parsed so far: 4400000
+2017-07-12 10:18:30,662 - INFO - Reads parsed so far: 4500000
+2017-07-12 10:18:32,294 - INFO - Reads parsed so far: 4600000
+2017-07-12 10:18:33,946 - INFO - Reads parsed so far: 4700000
+2017-07-12 10:18:35,568 - INFO - Reads parsed so far: 4800000
+2017-07-12 10:18:37,240 - INFO - Reads parsed so far: 4900000
+2017-07-12 10:18:38,144 - INFO - Finished parsing all 4955669 reads; ended up with 2277398 unique barcodes.
+
+2017-07-12 10:18:38,150 - INFO - Now examining the 2277398 barcodes to see if reads meet criteria for retention
+2017-07-12 10:18:41,368 - INFO - Barcodes examined so far: 100000
+2017-07-12 10:18:44,516 - INFO - Barcodes examined so far: 200000
+2017-07-12 10:18:47,620 - INFO - Barcodes examined so far: 300000
+2017-07-12 10:18:50,771 - INFO - Barcodes examined so far: 400000
+2017-07-12 10:18:53,893 - INFO - Barcodes examined so far: 500000
+2017-07-12 10:18:57,007 - INFO - Barcodes examined so far: 600000
+2017-07-12 10:19:00,132 - INFO - Barcodes examined so far: 700000
+2017-07-12 10:19:03,258 - INFO - Barcodes examined so far: 800000
+2017-07-12 10:19:06,386 - INFO - Barcodes examined so far: 900000
+2017-07-12 10:19:09,514 - INFO - Barcodes examined so far: 1000000
+2017-07-12 10:19:12,626 - INFO - Barcodes examined so far: 1100000
+2017-07-12 10:19:15,762 - INFO - Barcodes examined so far: 1200000
+2017-07-12 10:19:18,906 - INFO - Barcodes examined so far: 1300000
+2017-07-12 10:19:22,040 - INFO - Barcodes examined so far: 1400000
+2017-07-12 10:19:25,167 - INFO - Barcodes examined so far: 1500000
+2017-07-12 10:19:28,260 - INFO - Barcodes examined so far: 1600000
+2017-07-12 10:19:31,417 - INFO - Barcodes examined so far: 1700000
+2017-07-12 10:19:34,595 - INFO - Barcodes examined so far: 1800000
+2017-07-12 10:19:37,863 - INFO - Barcodes examined so far: 1900000
+2017-07-12 10:19:41,344 - INFO - Barcodes examined so far: 2000000
+2017-07-12 10:19:45,041 - INFO - Barcodes examined so far: 2100000
+2017-07-12 10:19:49,064 - INFO - Barcodes examined so far: 2200000
+2017-07-12 10:19:53,969 - INFO - Finished examining all 2277398 barcodes
+
+2017-07-12 10:19:53,970 - INFO - Writing the codon counts to Lib3_counts.txt
+2017-07-12 10:19:53,999 - INFO - Here are the summary statistics (these are also being written to Lib3_summarystats.txt):
+	total read pairs = 4955669
+	read pairs that fail Illumina filter = 0
+	low quality read pairs = 499994
+	barcodes randomly purged = 0
+	discarded barcodes with 1 reads = 1107386
+	aligned barcodes with 2 reads = 507283
+	discarded barcodes with 2 reads = 9367
+	un-alignable barcodes with 2 reads = 50653
+	aligned barcodes with 3 reads = 292383
+	discarded barcodes with 3 reads = 8079
+	un-alignable barcodes with 3 reads = 40302
+	aligned barcodes with 4 reads = 150418
+	discarded barcodes with 4 reads = 5295
+	un-alignable barcodes with 4 reads = 8076
+	aligned barcodes with 5 reads = 59809
+	discarded barcodes with 5 reads = 2656
+	un-alignable barcodes with 5 reads = 3322
+	aligned barcodes with 6 reads = 20596
+	discarded barcodes with 6 reads = 1091
+	un-alignable barcodes with 6 reads = 1090
+	aligned barcodes with 7 reads = 6209
+	discarded barcodes with 7 reads = 420
+	un-alignable barcodes with 7 reads = 348
+	aligned barcodes with 8 reads = 1681
+	discarded barcodes with 8 reads = 148
+	un-alignable barcodes with 8 reads = 112
+	aligned barcodes with 9 reads = 442
+	discarded barcodes with 9 reads = 47
+	un-alignable barcodes with 9 reads = 25
+	aligned barcodes with 10 reads = 100
+	discarded barcodes with 10 reads = 17
+	un-alignable barcodes with 10 reads = 5
+	aligned barcodes with 11 reads = 22
+	discarded barcodes with 11 reads = 8
+	un-alignable barcodes with 11 reads = 2
+	aligned barcodes with 12 reads = 4
+	discarded barcodes with 12 reads = 1
+	aligned barcodes with 13 reads = 1
+2017-07-12 10:19:53,999 - INFO - Successful completion of dms_barcodedsubamplicons at Wed Jul 12 10:19:53 2017

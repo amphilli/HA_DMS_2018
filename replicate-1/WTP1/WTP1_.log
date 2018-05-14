@@ -1,0 +1,154 @@
+2017-07-12 08:55:12,365 - INFO - Beginning execution of dms_barcodedsubamplicons in directory /Users/angelaphillips/Desktop/HA_GIT/Hemagglutinin_3/replicate-1/WTP1
+
+2017-07-12 08:55:12,365 - INFO - Progress will be logged to WTP1_.log
+2017-07-12 08:55:12,913 - INFO - Version information for dms_tools and associated packages.
+	Time and date: Wed Jul 12 08:55:12 2017
+	Platform: Darwin-15.5.0-x86_64-i386-64bit
+	Python version: 2.7.11 |Anaconda 2.3.0 (x86_64)| (default, Dec  6 2015, 18:57:58)  [GCC 4.2.1 (Apple Inc. build 5577)]
+	dms_tools version: 1.1.14
+	Bio version: 1.66
+	numpy version: 1.9.2
+	scipy version: 0.15.1
+	matplotlib version: 1.4.3
+	cython version: 0.22.1
+	pystan version: 2.9.0.0
+	weblogolib version: 3.4
+	PyPDF2 version: 1.26.0
+
+2017-07-12 08:55:12,913 - INFO - Parsed the following arguments:
+	minreadconcurrence = 0.75
+	maxmuts = 4
+	maxlowqfrac = 0.075
+	r1files = ['/Users/angelaphillips/Desktop/HA_GIT/Hemagglutinin_3/FASTQ_files//replicate-1/WTP1/WTP1_1.fastq']
+	minreadidentity = 0.9
+	purgefrac = 0
+	R1trimlength = 200
+	R1_is_antisense = False
+	r2files = ['/Users/angelaphillips/Desktop/HA_GIT/Hemagglutinin_3/FASTQ_files//replicate-1/WTP1/WTP1_2.fastq']
+	alignspecs = [(1, 285, 36, 37), (286, 570, 31, 32), (571, 855, 37, 32), (856, 1140, 31, 36), (1141, 1425, 29, 33), (1426, 1698, 40, 43)]
+	R2trimlength = 170
+	maxreadtrim = 3
+	barcodeinfo = False
+	chartype = codon
+	barcodelength = 8
+	minreadsperbarcode = 2
+	minq = 15
+	outprefix = WTP1_
+	refseq = /Users/angelaphillips/Desktop/HA_GIT/Hemagglutinin_3/WSN_HA_reference.fasta
+	purgereadfrac = 0
+	seed = 1
+
+2017-07-12 08:55:12,916 - INFO - Read a reference sequence of 566 codons from /Users/angelaphillips/Desktop/HA_GIT/Hemagglutinin_3/WSN_HA_reference.fasta
+
+2017-07-12 08:55:12,916 - INFO - Now parsing reads from the following:
+	r1files: /Users/angelaphillips/Desktop/HA_GIT/Hemagglutinin_3/FASTQ_files//replicate-1/WTP1/WTP1_1.fastq
+	r2files: /Users/angelaphillips/Desktop/HA_GIT/Hemagglutinin_3/FASTQ_files//replicate-1/WTP1/WTP1_2.fastq
+2017-07-12 08:55:14,612 - INFO - Reads parsed so far: 100000
+2017-07-12 08:55:16,357 - INFO - Reads parsed so far: 200000
+2017-07-12 08:55:18,051 - INFO - Reads parsed so far: 300000
+2017-07-12 08:55:19,817 - INFO - Reads parsed so far: 400000
+2017-07-12 08:55:21,809 - INFO - Reads parsed so far: 500000
+2017-07-12 08:55:23,495 - INFO - Reads parsed so far: 600000
+2017-07-12 08:55:25,331 - INFO - Reads parsed so far: 700000
+2017-07-12 08:55:27,059 - INFO - Reads parsed so far: 800000
+2017-07-12 08:55:28,909 - INFO - Reads parsed so far: 900000
+2017-07-12 08:55:30,532 - INFO - Reads parsed so far: 1000000
+2017-07-12 08:55:32,492 - INFO - Reads parsed so far: 1100000
+2017-07-12 08:55:34,264 - INFO - Reads parsed so far: 1200000
+2017-07-12 08:55:36,068 - INFO - Reads parsed so far: 1300000
+2017-07-12 08:55:37,778 - INFO - Reads parsed so far: 1400000
+2017-07-12 08:55:39,848 - INFO - Reads parsed so far: 1500000
+2017-07-12 08:55:41,520 - INFO - Reads parsed so far: 1600000
+2017-07-12 08:55:43,309 - INFO - Reads parsed so far: 1700000
+2017-07-12 08:55:45,004 - INFO - Reads parsed so far: 1800000
+2017-07-12 08:55:46,655 - INFO - Reads parsed so far: 1900000
+2017-07-12 08:55:48,723 - INFO - Reads parsed so far: 2000000
+2017-07-12 08:55:50,369 - INFO - Reads parsed so far: 2100000
+2017-07-12 08:55:52,098 - INFO - Reads parsed so far: 2200000
+2017-07-12 08:55:53,739 - INFO - Reads parsed so far: 2300000
+2017-07-12 08:55:55,378 - INFO - Reads parsed so far: 2400000
+2017-07-12 08:55:57,015 - INFO - Reads parsed so far: 2500000
+2017-07-12 08:55:58,654 - INFO - Reads parsed so far: 2600000
+2017-07-12 08:56:00,301 - INFO - Reads parsed so far: 2700000
+2017-07-12 08:56:02,554 - INFO - Reads parsed so far: 2800000
+2017-07-12 08:56:04,200 - INFO - Reads parsed so far: 2900000
+2017-07-12 08:56:05,834 - INFO - Reads parsed so far: 3000000
+2017-07-12 08:56:07,472 - INFO - Reads parsed so far: 3100000
+2017-07-12 08:56:09,099 - INFO - Reads parsed so far: 3200000
+2017-07-12 08:56:10,739 - INFO - Reads parsed so far: 3300000
+2017-07-12 08:56:12,374 - INFO - Reads parsed so far: 3400000
+2017-07-12 08:56:14,009 - INFO - Reads parsed so far: 3500000
+2017-07-12 08:56:15,644 - INFO - Reads parsed so far: 3600000
+2017-07-12 08:56:17,284 - INFO - Reads parsed so far: 3700000
+2017-07-12 08:56:18,918 - INFO - Reads parsed so far: 3800000
+2017-07-12 08:56:20,580 - INFO - Reads parsed so far: 3900000
+2017-07-12 08:56:22,224 - INFO - Reads parsed so far: 4000000
+2017-07-12 08:56:23,858 - INFO - Reads parsed so far: 4100000
+2017-07-12 08:56:26,371 - INFO - Reads parsed so far: 4200000
+2017-07-12 08:56:27,999 - INFO - Reads parsed so far: 4300000
+2017-07-12 08:56:29,636 - INFO - Reads parsed so far: 4400000
+2017-07-12 08:56:30,987 - INFO - Finished parsing all 4483367 reads; ended up with 2186141 unique barcodes.
+
+2017-07-12 08:56:30,993 - INFO - Now examining the 2186141 barcodes to see if reads meet criteria for retention
+2017-07-12 08:56:33,960 - INFO - Barcodes examined so far: 100000
+2017-07-12 08:56:36,842 - INFO - Barcodes examined so far: 200000
+2017-07-12 08:56:39,714 - INFO - Barcodes examined so far: 300000
+2017-07-12 08:56:42,559 - INFO - Barcodes examined so far: 400000
+2017-07-12 08:56:45,440 - INFO - Barcodes examined so far: 500000
+2017-07-12 08:56:48,328 - INFO - Barcodes examined so far: 600000
+2017-07-12 08:56:51,203 - INFO - Barcodes examined so far: 700000
+2017-07-12 08:56:54,088 - INFO - Barcodes examined so far: 800000
+2017-07-12 08:56:56,962 - INFO - Barcodes examined so far: 900000
+2017-07-12 08:56:59,856 - INFO - Barcodes examined so far: 1000000
+2017-07-12 08:57:02,742 - INFO - Barcodes examined so far: 1100000
+2017-07-12 08:57:05,624 - INFO - Barcodes examined so far: 1200000
+2017-07-12 08:57:08,489 - INFO - Barcodes examined so far: 1300000
+2017-07-12 08:57:11,352 - INFO - Barcodes examined so far: 1400000
+2017-07-12 08:57:14,223 - INFO - Barcodes examined so far: 1500000
+2017-07-12 08:57:17,107 - INFO - Barcodes examined so far: 1600000
+2017-07-12 08:57:20,038 - INFO - Barcodes examined so far: 1700000
+2017-07-12 08:57:23,117 - INFO - Barcodes examined so far: 1800000
+2017-07-12 08:57:26,330 - INFO - Barcodes examined so far: 1900000
+2017-07-12 08:57:29,622 - INFO - Barcodes examined so far: 2000000
+2017-07-12 08:57:33,215 - INFO - Barcodes examined so far: 2100000
+2017-07-12 08:57:37,868 - INFO - Finished examining all 2186141 barcodes
+
+2017-07-12 08:57:37,868 - INFO - Writing the codon counts to WTP1_counts.txt
+2017-07-12 08:57:37,898 - INFO - Here are the summary statistics (these are also being written to WTP1_summarystats.txt):
+	total read pairs = 4483367
+	read pairs that fail Illumina filter = 0
+	low quality read pairs = 413047
+	barcodes randomly purged = 0
+	discarded barcodes with 1 reads = 1114684
+	aligned barcodes with 2 reads = 510615
+	discarded barcodes with 2 reads = 8792
+	un-alignable barcodes with 2 reads = 43751
+	aligned barcodes with 3 reads = 263712
+	discarded barcodes with 3 reads = 7114
+	un-alignable barcodes with 3 reads = 33826
+	aligned barcodes with 4 reads = 122545
+	discarded barcodes with 4 reads = 4132
+	un-alignable barcodes with 4 reads = 6092
+	aligned barcodes with 5 reads = 44893
+	discarded barcodes with 5 reads = 1979
+	un-alignable barcodes with 5 reads = 2207
+	aligned barcodes with 6 reads = 14159
+	discarded barcodes with 6 reads = 806
+	un-alignable barcodes with 6 reads = 719
+	aligned barcodes with 7 reads = 4120
+	discarded barcodes with 7 reads = 266
+	un-alignable barcodes with 7 reads = 213
+	aligned barcodes with 8 reads = 1037
+	discarded barcodes with 8 reads = 64
+	un-alignable barcodes with 8 reads = 66
+	aligned barcodes with 9 reads = 224
+	discarded barcodes with 9 reads = 19
+	un-alignable barcodes with 9 reads = 11
+	aligned barcodes with 10 reads = 59
+	discarded barcodes with 10 reads = 9
+	un-alignable barcodes with 10 reads = 7
+	aligned barcodes with 11 reads = 13
+	discarded barcodes with 11 reads = 2
+	un-alignable barcodes with 11 reads = 1
+	aligned barcodes with 12 reads = 4
+2017-07-12 08:57:37,898 - INFO - Successful completion of dms_barcodedsubamplicons at Wed Jul 12 08:57:37 2017
