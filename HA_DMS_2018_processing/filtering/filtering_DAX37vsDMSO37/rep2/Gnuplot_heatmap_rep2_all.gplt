@@ -1,0 +1,35 @@
+
+set title "DAX37 mutdiffsel rep2"
+
+#set palette maxcolor 4
+set cbrange[-2:2]
+set palette defined (-2.0 "black", -2.0 "blue", 0 "white", 2.0 "red")
+
+
+XTICS = "`head -1 'labels_aa.txt'`"
+set for [i=1:words(XTICS)] xtics ( word(XTICS,i) i-1 )
+
+set xrange [-0.5:19.5]
+set yrange [0-0.5:565.5]
+
+set ytics 0,50
+set grid ytics front lt 0
+
+#set xtics offset 1.5
+
+#set pm3d map
+#set pm3d corners2color c1
+#splot 'out_heatmap_rep2.txt' matrix 
+
+plot 'out_heatmap_rep2.txt' matrix with image t ''
+
+#set view map
+#splot 'out_heatmap_rep2.txt' matrix with image
+
+set terminal postscript eps enhanced color
+set output 'out_heatmap_rep2_all.eps'
+replot
+
+set terminal x11
+
+exit

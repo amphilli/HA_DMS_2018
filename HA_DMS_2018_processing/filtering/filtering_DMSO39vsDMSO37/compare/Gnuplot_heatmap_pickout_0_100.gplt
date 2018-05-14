@@ -1,0 +1,35 @@
+
+set title "DMSOtemp mutdiffsel"
+
+set cbrange[-2:2]
+set palette defined (-2.0 "white", -2.0 "blue", 0 "#D3D3D3", 2.0 "red", 2.001 "#F0E68C")
+#set palette defined (-2.0 "white", -2.0 "blue", 0 "#D3D3D3", 2.0 "red", 2.0 "green")
+
+
+XTICS = "`head -1 'labels_aa.txt'`"
+set for [i=1:words(XTICS)] xtics ( word(XTICS,i) i-1 )
+
+set xrange [-0.5:19.5]
+set yrange [0-0.5:100-0.5]
+
+set ytics 0,5
+set grid ytics front lt 0
+
+#set xtics offset 1.5
+
+#set pm3d map
+#set pm3d corners2color c1
+#splot 'out_heatmaps_pickouts.txt' matrix 
+
+plot 'out_heatmaps_pickouts.txt' matrix with image t ''
+
+#set view map
+#splot 'out_heatmaps_pickouts.txt' matrix with image
+
+set terminal postscript eps enhanced color
+set output 'out_heatmap_pickouts_0_100.eps'
+replot
+
+set terminal x11
+
+exit
