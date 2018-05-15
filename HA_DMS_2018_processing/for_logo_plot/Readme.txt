@@ -1,4 +1,4 @@
-This folder contains one subdirectory for each differential selection comparison. This module formats the pickouts output from the filtering modules into a form that can be used as input for dms_logoplot to generate sequence logo plots. To do this, it adds the WT WSN HA sequence, changes the indexing to start at 1 to match the site numbers in the reference sequence, and reformats the data for dms_logoplot.
+This folder contains one subdirectory for each differential selection comparison. This module formats the pickouts output from the filtering modules into a form that can be used as input for dms_logoplot to generate sequence logo plots. To do this, it adds the WT WSN HA sequence, changes the indexing to start at 1 to match the site numbers in the reference sequence, and reformats the data, taking the average mutdiffsel (col[2]), for dms_logoplot.
 
 Before running: combine the the out_list_pickouts_neg.txt and out_list_pickouts_pos.txt into one file (_all_pickouts.txt) and then sort by site (col[0]) in ascending order(_all_pickouts_sorted.txt).
 

@@ -1,6 +1,7 @@
 This directory contains input and output for running dms_logoplot, which is part of the dms_tools package (v 1.2.2 was used to generate these plots)
 
 Input:
+#first need to add header to each of the below files, which are generated in module 3:for_logo_plot: site,wt,mut,diffsel
 (1) DAX37_all_pickouts_sorted_for_logo.txt
 (2) DAX39_all_pickouts_sorted_for_logo.txt
 (3) XBP137_all_pickouts_sorted_for_logo.txt

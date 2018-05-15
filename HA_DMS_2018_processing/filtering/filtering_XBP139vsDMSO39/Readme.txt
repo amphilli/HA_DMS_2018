@@ -1,4 +1,4 @@
-1. In the main directory (XBP139vsDMSO39/)
+1. In the main directory (filtering_XBP139vsDMSO39/)
 
 Input:
 
@@ -23,7 +23,7 @@ To run:
 ./Sh_1_genHeatMaps.sh
 
 
-2. In the compare directory (XBP139vsDMSO39/compare)
+2. In the compare directory (filtering_XBP139vsDMSO39/compare)
 
 Input: 
 

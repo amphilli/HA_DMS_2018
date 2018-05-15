@@ -1,4 +1,4 @@
-site,wt,but,diffsel
+site,wt,mut,diffsel
 1,M,G, 0.00000 
 1,M,A, 0.00000 
 1,M,V, 0.00000 
