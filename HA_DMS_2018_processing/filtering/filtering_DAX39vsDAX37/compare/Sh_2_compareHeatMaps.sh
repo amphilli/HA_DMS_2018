@@ -3,7 +3,7 @@
 # Change output file name accordingly in the python template, copy the python file to directory repN
 # In directory repN, run python
 
-name="DAX_37v39_mutdiffsel.txt"
+name="DAXtemp_mutdiffsel.txt"
 
 nrep=3
 nres=565
@@ -11,7 +11,7 @@ nres=565
 data1=out_heatmap_rep1.txt
 data2=out_heatmap_rep2.txt
 data3=out_heatmap_rep3.txt
-pythonfile=Py_compare_heatmaps_v6.py
+pythonfile=Py_compare_heatmaps_for_revision.py
 python $pythonfile $data1 $data2 $data3
 
 gnuplottemplate=Gnuplot_3heatmaps.gplt

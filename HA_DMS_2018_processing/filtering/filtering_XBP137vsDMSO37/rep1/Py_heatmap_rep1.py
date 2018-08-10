@@ -27,6 +27,9 @@ with open(dataFile) as f:
 # For mutations that did not exist in the library, make their selection values -100
 
 col = np.zeros((100,), dtype=np.int)
+for i in range (len(col)):
+  col[i] = 99
+
 count_mut = np.zeros((nres,nmut))
 with open(nomutFile) as f2:  
   for i, line in enumerate(f2):
@@ -37,6 +40,7 @@ with open(nomutFile) as f2:
       #print 'ncol = ',ncol
       for j in range(2,ncol):
         mut = parts[j]
+        print mut
         for k in aa.keys():
           if aa[k] == mut:
             col[j]=k 
@@ -48,7 +52,9 @@ with open(nomutFile) as f2:
       ires = int(parts[0])-1 # note: ires starts at 0
       for j in range(2,ncol):
          imut=col[j]
-         count_mut[ires,imut]+=int(parts[j])
+         print ires, j,imut # New
+         if imut < 20:  # New
+           count_mut[ires,imut]+=int(parts[j]) # New
          #print ires,aa[imut],count_mut[ires,imut]
 
 for n in range(nres):

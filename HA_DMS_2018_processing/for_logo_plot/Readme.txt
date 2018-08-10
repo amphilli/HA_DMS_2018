@@ -9,7 +9,9 @@ HAalignment_v2.txt #contains wt sequence
 
 
 Output:
-*_all_pickouts_sorted_for_logo_HA.txt #can be used as input for dms_logoplot
+*_all_pickouts_sorted_for_logo_HA.txt 
+#can be used as input for dms_logoplot
+#lists the average mutdiffsel, followed by the mutdiffsel values for replicates 1–3
 
 
 Code:
